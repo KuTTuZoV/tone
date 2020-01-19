@@ -4,5 +4,5 @@ find_package(Qt5Core REQUIRED)
 
 add_library(tone SHARED hue.cpp)
 
-qt5_use_modules(hue Core)
+qt5_use_modules(tone Core)
 
